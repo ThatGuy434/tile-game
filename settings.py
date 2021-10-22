@@ -21,3 +21,4 @@ GRIDHEIGHT = HEIGHT / TILESIZE
 
 # PLayer settings
 PLAYER_SPEED = 300
+PLAYER_IMG = 'tank_blue.png'
