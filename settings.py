@@ -24,4 +24,10 @@ GRIDHEIGHT = HEIGHT / TILESIZE
 PLAYER_SPEED = 300
 PLAYER_ROT_SPEED = 250
 PLAYER_IMG = 'tank_blue.png'
+WALL_IMG = "crateMetal.png"
 PLAYER_HIT_RECT = pg.Rect(0, 0, 35, 35)
+
+# mob settings
+MOB_IMG = "tankBody_red.png"
+MOB_SPEED = 150
+MOB_HIT_RECT = pg.Rect(0, 0, 35, 35)
