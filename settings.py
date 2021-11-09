@@ -25,7 +25,7 @@ GRIDHEIGHT = HEIGHT / TILESIZE
 # PLayer settings
 PLAYER_HEALTH = 200
 PLAYER_SPEED = 300
-PLAYER_ROT_SPEED = 250
+PLAYER_ROT_SPEED = 200
 PLAYER_IMG = 'tank_blue.png'
 WALL_IMG = "crateMetal.png"
 PLAYER_HIT_RECT = pg.Rect(0, 0, 35, 35)
@@ -48,3 +48,19 @@ MOB_HEALTH = 100
 MOB_DAMAGE = 10
 MOB_KNOCKBACK = 20
 AVOID_RADIUS = 50
+
+# Effects
+MUZZLE_FLASHES = ['explosion2.png', 'explosion4.png', 'explosionSmoke2.png', 'explosionsmoke4.png']
+FLASH_DURATION = 40
+
+# Layers
+WALL_LAYER = 1
+PLAYER_LAYER = 2
+MOB_LAYER = 2
+BULLET_LAYER = 3
+EFFECTS_LAYER = 4
+ITEM_LAYER = 1
+
+# Items
+ITEM_IMAGES = {'health': 'barrelGreen_side.png'}
+HEALTH_PACK_AMOUNT = 20
